@@ -1,0 +1,162 @@
+.containerFluid {
+  display: flex;
+  flex: 1;
+}
+.container {
+  margin: 1.25rem;
+}
+.displayFlex {
+  display: flex;
+}
+.flexDirectionRow {
+  flex-direction: row;
+}
+
+.flexDirectionColum {
+  flex-direction: column;
+}
+.flexDirectionColumReverse {
+  flex-direction: column-reverse;
+}
+
+.flexOne {
+  flex: 1;
+}
+.flexTwo {
+  flex: 2;
+}
+.flexEight {
+  flex: 8;
+}
+
+.height100 {
+  height: 100vh;
+}
+
+.rightBaground {
+  background: transparent url(../../assets/images/background.jpg) 0% 0%
+    no-repeat padding-box;
+  background-size: cover;
+}
+.center {
+  justify-content: center;
+  align-items: center;
+}
+.alignCenter {
+  align-items: center;
+}
+.justifyCenter {
+  justify-content: center;
+}
+.selfFlexStart {
+  justify-self: flex-start;
+  align-self: center;
+}
+.selfFlexEnd {
+  justify-self: flex-end;
+  align-self: center;
+}
+.button {
+  width: 20rem;
+  height: 3rem;
+  border: 1px solid;
+  border-radius: 1.5rem;
+  border-width: 0.08rem;
+  &:focus {
+    outline: none;
+  }
+  &::placeholder {
+    color: #000000;
+    // padding-left: 10px;
+  }
+}
+
+$arimoSans: 'Arimo', sans-serif;
+@mixin ArimoBold {
+  font-family: $arimoSans;
+  font-weight: 700;
+}
+@mixin ArimoRegular {
+  font-family: $arimoSans;
+  font-weight: 400;
+}
+.input {
+  @include ArimoRegular();
+  width: 19rem;
+  height: 3rem;
+  border-radius: 1.5rem;
+  border-width: 0.08rem;
+  padding-left: 10px;
+  &:focus {
+    outline: none;
+  }
+  &::placeholder {
+    color: #000000;
+    // padding-left: 10px;
+  }
+}
+.inputSignUp {
+  @include ArimoRegular();
+  width: 19rem;
+  height: 2rem;
+  border-radius: 1.5rem;
+  border-width: 0.08rem;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 10px;
+  &:focus {
+    outline: none;
+  }
+  &::placeholder {
+    color: #000000;
+    // padding-left: 10px;
+  }
+}
+
+.space20 {
+  margin: 1.25rem;
+}
+
+.errorMessage {
+  align-self: flex-start;
+  padding-top: 0.3125rem;
+  padding-left: 0.63rem;
+  @include ArimoRegular();
+  font-size: 0.9375rem;
+  height: 0.9375rem;
+  color: red;
+}
+.blueBackground {
+  background-color: #07689f;
+  border-color: #07689f;
+  color: #ffffff;
+  @include ArimoBold();
+  font-size: 1rem;
+}
+
+.greenBackground {
+  background-color: #ffffff;
+  border-color: #07689f;
+  @include ArimoBold();
+  font-size: 1rem;
+}
+
+.welcome {
+  @include ArimoBold();
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+.profilePhoto {
+  display: flex;
+  justify-self: flex-start;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 3.125rem;
+  border: 1px solid;
+  border-color: #07689f;
+  object-fit: cover;
+}
+
+.marginBottom {
+  margin-bottom: 0.625rem;
+}

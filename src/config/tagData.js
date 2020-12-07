@@ -1,0 +1,46 @@
+const tagData = {
+  Skills: [
+    'Android Studio',
+    'Aid',
+    'Android Studio',
+    'Android Studio',
+    'Android Studio',
+    'Android Studio',
+    'Android Studio',
+    'Android Studio',
+    'Android Studio',
+    'Android Studio',
+    'Android Studio',
+    'Android Studio',
+    'Android Studio',
+  ],
+  Education: [
+    'Android Studio',
+    'Android Studio',
+    'Android Studio',
+    'Android Studio',
+    'Android Studio',
+    'Android Studio',
+  ],
+  Experience: [
+    'Android Studio',
+    'Android Studio',
+    'Android Studio',
+    'Android Studio',
+    'Android Studio',
+  ],
+};
+const categories = [
+  'Govn Jobs',
+  'Data Science',
+  'Customer Service',
+  'Business',
+  'Database admin',
+  'Design',
+  'Support',
+  'Content Writer',
+  'Software Developer',
+  'Business Analyst',
+  'Real Estate',
+];
+module.exports = { tagData: tagData, categoriesData: categories };
