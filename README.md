@@ -3,6 +3,7 @@
 ## Available Scripts
 
 In the project directory, you can run:
+Change env src/config/apiConfig.js file according to the current environment i.e staging, dev, prod
 
 ### `npm start`
 
